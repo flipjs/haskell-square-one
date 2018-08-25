@@ -11,9 +11,8 @@ world = "world!"
 
 main :: IO ()
 main = do
-  putStrLn myGreeting
-  putStrLn secondGreeting
-    where secondGreeting =
-            (++) hello $ (++) " " world
+    putStrLn myGreeting
+    putStrLn secondGreeting
+    where secondGreeting = (++) hello $ (++) " " world
 -- could have been:
---   secondGreeting = hello ++ " " ++ world
+-- secondGreeting = hello ++ " " ++ world

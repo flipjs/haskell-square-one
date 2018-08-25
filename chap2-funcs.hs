@@ -1,1 +1,1 @@
-pisq x = pi * ( x * x )
+pisq x = pi * (x * x)
